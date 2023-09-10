@@ -4,12 +4,12 @@
 
 body {
     font-size: 10px;
-    font-family: Tahoma, Arial;
+    font-family: Tahoma, 'Courier New', Courier, monospace;
 }
 
 nav {
     width: 100%;
-    background-color: #4d5791;
+    background-color: #4d918c;
     height: 44px;
     padding: 0 40px;
 }
@@ -39,8 +39,8 @@ nav ul li a:hover  {
 
 div.hero {
     height: 350px;
-    background-color: #b4c6f0;
-    background-image: url('bg.png');
+    background-color: #be546c;
+    background-image: url('bg2.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -71,11 +71,14 @@ main {
 .page-area {
     max-width: 768px;
     display: inline-block;
+    font-size: 1.5em;
+    
+    
 }
 
 footer {
     height: 50px;
-    background-color: #b4c6f0;
+    background-color: #b454be;
     padding: 40px;
 }
 
