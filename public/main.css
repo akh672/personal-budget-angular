@@ -39,7 +39,7 @@ nav ul li a:hover  {
 
 div.hero {
     height: 350px;
-    background-color: #be546c;
+    background-color: #302629;
     background-image: url('bg2.png');
     background-size: 400px;
     background-repeat: no-repeat;
@@ -109,4 +109,13 @@ main article {
     main article {
         margin: 10px;
     }
+}
+
+.skip
+{
+    display: block;
+    padding: 0 20px;
+    line-height: 120px;
+    font-size: 1.4em;
+    text-decoration: none;
 }
