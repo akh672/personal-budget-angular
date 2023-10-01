@@ -1,25 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
+import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 const routes: Routes = [
 {
 path:'',
-component: HomepageComponent,
+component:HomepageComponent,
 pathMatch:'full'
 },
 {
-path:'about',
-component: HomepageComponent
+path:'login',
+component:LoginComponent
 },
 {
-path:'login',
-component: HomepageComponent
+path:'contact',
+component:ContactComponent
 },
 {
   path:'**',
-component: P404Component
+component:P404Component
 },
 ];
 
